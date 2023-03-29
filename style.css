@@ -1,0 +1,166 @@
+/*style index.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    color: red;
+}
+
+.barra {
+    background-color: black;
+}
+
+.jumbotron {
+    background-image: url(./imagenes/fondo\ tienda.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /*dando valores cero borro los predeterminados de bootstrap*/
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+h2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 3px white;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: grey;
+    text-align: center;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    color: red !important;
+}
+
+.contenedor {
+    display: flex;
+    grid-gap: 80px;
+    background-color: white;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+}
+
+.card-text {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: blue;
+}
+
+.imgpromocion {
+    border-radius: 20px;
+    margin: 30px;
+    height: 200px;
+    filter: grayscale(1);
+    transition: all 0.7s;
+}
+
+.imgpromocion:hover {
+    border-radius: 50px;
+    margin: 30px;
+    filter: none;
+    transform: scale(0.9);
+    transition: all 0.7s;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.445);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+
+footer a {
+    color: aqua;
+}
+
+.redes {
+    color: aqua;
+    /*le doy color a los logos de los vectores, ejemplo instagram facebook*/
+    letter-spacing: 10px;
+    /*doy espacio entre los vectores*/
+
+}
+
+.subir {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.img-main {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+/* nosotros*/
+
+.nav1 {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+ul.iconos li {
+    display: inline-flex;
+    padding-right: 50px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 500px;
+}
