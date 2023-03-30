@@ -15,17 +15,6 @@
     background-color: black;
 }
 
-.jumbotron {
-    background-image: url(./imagenes/fondo\ tienda.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    /*dando valores cero borro los predeterminados de bootstrap*/
-    margin-bottom: 0;
-    border-radius: 0;
-    color: white;
-    text-shadow: 0 0 5px black;
-}
 
 h2 {
     background-color: rgb(0, 0, 0);
@@ -56,13 +45,27 @@ nav a:hover {
     display: flex;
     grid-gap: 80px;
     background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
 
 .card {
     padding: 10px;
-    margin: 10px;
+    margin: 80px 0px 80px 0px;
+    width: 300px;
+    border: none;
+    align-items: center;
+    text-align: center;
 }
 
+.card-title {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 1, 1);
+    height: 80px;
+}
 
 .card-img-top:hover {
     transform: scale(1.05);
@@ -70,18 +73,23 @@ nav a:hover {
 }
 
 .card-text {
-    color: red;
+    color: rgb(86, 86, 86);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-
-
+    font-size: 18px;
+    height: 30px;
 }
 
 .btn {
-    background-color: blue;
+    width: 100%;
+    background-color: rgb(62, 62, 62);
     color: white;
     text-transform: capitalize;
-    border: blue;
+    border: rgb(0, 0, 0);
+}
+
+.btn:hover {
+    background-color: rgb(172, 2, 2);
+    color: rgb(255, 255, 255);
 }
 
 .imgpromocion {
@@ -112,11 +120,11 @@ footer {
 }
 
 footer a {
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 
 .redes {
-    color: aqua;
+    color: rgb(255, 255, 255);
     /*le doy color a los logos de los vectores, ejemplo instagram facebook*/
     letter-spacing: 10px;
     /*doy espacio entre los vectores*/
@@ -139,9 +147,11 @@ footer a {
 }
 
 .img-main {
-    width: 100%;
-    height: 550px;
+    width: auto;
+    height: 80vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* nosotros*/
@@ -163,4 +173,43 @@ ul.iconos li {
 .img-fluid {
     width: 500px;
     height: 500px;
+}
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 80px 30px 80px 30px;
+    text-align: justify;
+}
+
+h1 {
+    color: crimson;
+    text-align: left;
+}
+
+.imgNosotros {
+    width: 50%;
+    margin: 0px 50px 0 0;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 915px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .img-main {
+        height: 50vh;
+    }
 }
