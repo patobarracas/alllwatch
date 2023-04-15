@@ -174,6 +174,7 @@ ul.iconos li {
     width: 500px;
     height: 500px;
 }
+
 .media {
     display: flex;
     flex-wrap: wrap;
@@ -212,4 +213,62 @@ h1 {
     .img-main {
         height: 50vh;
     }
+}
+
+/* CONTACTO */
+
+.img-contacto {
+    width: 100%;
+    height: 500px;
+}
+.titulo h1{
+    text-align: center;
+}
+
+.p-contacto p {
+    text-align: center;
+}
+
+.container-fluid {
+    background-color: rgb(62, 62, 62);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.container-form h2{
+    color: rgb(62, 62, 62);
+    background-color: white;
+}
+#button-contacto{
+width: 10%;
+border: solid;
+}
+
+/* tienda */
+
+.img-tienda{
+    width: 100%;
+    height: 500px;}
+
+ .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center; }
+      
+.grid-item {
+        text-align: center;
+        width: 200px;
+        height: 200px; }
+.grid-item img {
+          width: 80%; }
+
+.grid-item img:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+    ;
 }
