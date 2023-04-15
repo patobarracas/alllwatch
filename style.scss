@@ -1,45 +1,61 @@
+$color1:#E6273A;
+$color2:#000000;
+$color3:white;
+$color4:rgb(86, 86, 86);
+$color5:crimson;
+$font1:Arial,
+Helvetica,
+sans-serif;
+$font2:Verdana,
+Geneva,
+Tahoma,
+sans-serif;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .logo {
-    color: #E6273A;
+    color: $color1;
 }
 
 .barra {
-    background-color: #000000;
+    background-color: $color2;
 }
 
+
 h2 {
-    background-color: #000000;
-    color: white;
+    background-color: $color2;
+    color: $color3;
     text-align: center;
     text-transform: capitalize;
-    text-shadow: 0px 0px 3px white;
+    text-shadow: 0px 0px 3px $color3;
     padding: 10px;
     margin-bottom: 0;
 }
 
 h3 {
-    color: rgb(86, 86, 86);
+    color: $color4;
     text-align: center;
 }
 
 .nav-link {
     text-transform: capitalize;
     font-size: 20px;
+
 }
 
 nav a:hover {
-    color: #E6273A !important;
+    color: $color1 !important;
 }
 
 .contenedor {
     display: flex;
     grid-gap: 80px;
-    background-color: white;
+    background-color: $color3;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -57,8 +73,8 @@ nav a:hover {
 
 .card-title {
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #E6273A;
+    font-family: $font1;
+    color: $color1;
     height: 80px;
 }
 
@@ -68,23 +84,23 @@ nav a:hover {
 }
 
 .card-text {
-    color: rgb(86, 86, 86);
-    font-family: Arial, Helvetica, sans-serif;
+    color: $color4;
+    font-family: $font1;
     font-size: 18px;
     height: 30px;
 }
 
 .btn {
     width: 100%;
-    background-color: rgb(86, 86, 86);
-    color: white;
+    background-color: $color4;
+    color: $color3;
     text-transform: capitalize;
-    border: #000000;
+    border: $color2;
 }
 
 .btn:hover {
-    background-color: #E6273A;
-    color: white;
+    background-color: $color1;
+    color: $color3;
 }
 
 .imgpromocion {
@@ -101,34 +117,36 @@ nav a:hover {
     filter: none;
     transform: scale(0.9);
     transition: all 0.7s;
-    box-shadow: 4px 5px 7px #000000;
+    box-shadow: 4px 5px 7px $color2;
 }
 
 footer {
-    background-color: #000000;
-    color: white;
+    background-color: $color2;
+    color: $color3;
     text-align: center;
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font2;
     padding: 20px;
+
 }
 
 footer a {
-    color: white;
+    color: $color3;
 }
 
 .redes {
-    color: white;
+    color: $color3;
     /*le doy color a los logos de los vectores, ejemplo instagram facebook*/
     letter-spacing: 10px;
     /*doy espacio entre los vectores*/
+
 }
 
 .subir {
     height: 50px;
     width: 50px;
-    background-color: white;
-    color: #000000;
+    background-color: $color3;
+    color: $color2;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -136,7 +154,7 @@ footer a {
     font-size: 25px;
     line-height: 50px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid $color3;
 }
 
 .img-main {
@@ -148,6 +166,7 @@ footer a {
 }
 
 /* nosotros*/
+
 .nav1 {
     padding: 10px;
     text-align: center;
@@ -176,7 +195,7 @@ ul.iconos li {
 }
 
 h1 {
-    color: crimson;
+    color: $color5;
     text-align: left;
 }
 
@@ -185,6 +204,7 @@ h1 {
     margin: 0px 50px 0 0;
     border-radius: 20px;
 }
+
 
 @media only screen and (max-width: 915px) {
     h1 {
@@ -207,6 +227,7 @@ h1 {
 }
 
 /* CONTACTO */
+
 .img-contacto {
     width: 100%;
     height: 500px;
@@ -221,18 +242,18 @@ h1 {
 }
 
 .container-fluid {
-    background-color: rgb(86, 86, 86);
+    background-color: $color4;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     padding: 10px;
-    color: white;
+    color: $color3;
     font-size: 16px;
 }
 
 .container-form h2 {
-    color: rgb(86, 86, 86);
-    background-color: white;
+    color: $color4;
+    background-color: $color3;
 }
 
 #button-contacto {
@@ -241,6 +262,7 @@ h1 {
 }
 
 /* tienda */
+
 .img-tienda {
     width: 100%;
     height: 500px;
@@ -267,6 +289,5 @@ h1 {
 .grid-item img:hover {
     transform: scale(1.05);
     transition: all 1s;
+    ;
 }
-
-/*# sourceMappingURL=style.css.map */
