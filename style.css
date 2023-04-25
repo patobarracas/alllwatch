@@ -1,272 +1,272 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
-    color: #E6273A;
+  color: #E6273A;
 }
 
 .barra {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 h2 {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 0px 0px 3px white;
-    padding: 10px;
-    margin-bottom: 0;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 0px 0px 3px white;
+  padding: 10px;
+  margin-bottom: 0;
 }
 
 h3 {
-    color: rgb(86, 86, 86);
-    text-align: center;
+  color: rgb(86, 86, 86);
+  text-align: center;
 }
 
 .nav-link {
-    text-transform: capitalize;
-    font-size: 20px;
+  text-transform: capitalize;
+  font-size: 20px;
 }
 
 nav a:hover {
-    color: #E6273A !important;
+  color: #E6273A !important;
 }
 
 .contenedor {
-    display: flex;
-    grid-gap: 80px;
-    background-color: white;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  grid-gap: 80px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
 }
 
 .card {
-    padding: 10px;
-    margin: 80px 0px 80px 0px;
-    width: 300px;
-    border: none;
-    align-items: center;
-    text-align: center;
+  padding: 10px;
+  margin: 80px 0px 80px 0px;
+  width: 300px;
+  border: none;
+  align-items: center;
+  text-align: center;
 }
 
 .card-title {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #E6273A;
-    height: 80px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E6273A;
+  height: 80px;
 }
 
 .card-img-top:hover {
-    transform: scale(1.05);
-    transition: all 0.9s;
+  transform: scale(1.05);
+  transition: all 0.9s;
 }
 
 .card-text {
-    color: rgb(86, 86, 86);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    height: 30px;
+  color: rgb(86, 86, 86);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 30px;
 }
 
 .btn {
-    width: 100%;
-    background-color: rgb(86, 86, 86);
-    color: white;
-    text-transform: capitalize;
-    border: #000000;
+  width: 100%;
+  background-color: rgb(86, 86, 86);
+  color: white;
+  text-transform: capitalize;
+  border: #000000;
 }
 
 .btn:hover {
-    background-color: #E6273A;
-    color: white;
+  background-color: #E6273A;
+  color: white;
 }
 
 .imgpromocion {
-    border-radius: 20px;
-    margin: 30px;
-    height: 200px;
-    filter: grayscale(1);
-    transition: all 0.7s;
+  border-radius: 20px;
+  margin: 30px;
+  height: 200px;
+  filter: grayscale(1);
+  transition: all 0.7s;
 }
 
 .imgpromocion:hover {
-    border-radius: 50px;
-    margin: 30px;
-    filter: none;
-    transform: scale(0.9);
-    transition: all 0.7s;
-    box-shadow: 4px 5px 7px #000000;
+  border-radius: 50px;
+  margin: 30px;
+  filter: none;
+  transform: scale(0.9);
+  transition: all 0.7s;
+  box-shadow: 4px 5px 7px #000000;
 }
 
 footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 .redes {
-    color: white;
-    /*le doy color a los logos de los vectores, ejemplo instagram facebook*/
-    letter-spacing: 10px;
-    /*doy espacio entre los vectores*/
+  color: white;
+  /*le doy color a los logos de los vectores, ejemplo instagram facebook*/
+  letter-spacing: 10px;
+  /*doy espacio entre los vectores*/
 }
 
 .subir {
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    color: #000000;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    text-align: center;
-    font-size: 25px;
-    line-height: 50px;
-    border-radius: 50%;
-    border: 5px solid white;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  color: #000000;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
 .img-main {
-    width: auto;
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: auto;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* nosotros*/
 .nav1 {
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
 }
 
 ul.iconos li {
-    display: inline-flex;
-    padding-right: 50px;
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
+  display: inline-flex;
+  padding-right: 50px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-fluid {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .media {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin: 80px 30px 80px 30px;
-    text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 80px 30px 80px 30px;
+  text-align: justify;
 }
 
 h1 {
-    color: crimson;
-    text-align: left;
+  color: crimson;
+  text-align: left;
 }
 
 .imgNosotros {
-    width: 50%;
-    margin: 0px 50px 0 0;
-    border-radius: 20px;
+  width: 50%;
+  margin: 0px 50px 0 0;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 915px) {
-    h1 {
-        font-size: 30px;
-    }
+  h1 {
+    font-size: 30px;
+  }
 }
-
 @media only screen and (max-width: 768px) {
-    .nav1 {
-        display: none;
-    }
-
-    h1 {
-        font-size: 22px;
-    }
-
-    .img-main {
-        height: 50vh;
-    }
+  .nav1 {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .img-main {
+    height: 50vh;
+  }
 }
-
 /* CONTACTO */
 .img-contacto {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .titulo h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .p-contacto p {
-    text-align: center;
+  text-align: center;
 }
 
 .container-fluid {
-    background-color: rgb(86, 86, 86);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    font-size: 16px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
 }
 
 .container-form h2 {
-    color: rgb(86, 86, 86);
-    background-color: white;
+  color: rgb(86, 86, 86);
+  background-color: white;
 }
 
 #button-contacto {
-    width: 10%;
-    border: solid;
+  width: 10%;
+  border: solid;
 }
 
 /* tienda */
 .img-tienda {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 5px;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
 }
 
 .grid-item {
-    text-align: center;
-    width: 200px;
-    height: 200px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
 }
 
 .grid-item img {
-    width: 80%;
+  width: 80%;
 }
 
 .grid-item img:hover {
-    transform: scale(1.05);
-    transition: all 1s;
-}
-
-/*# sourceMappingURL=style.css.map */
+  transform: scale(1.05);
+  transition: all 1s;
+}/*# sourceMappingURL=style.css.map */
